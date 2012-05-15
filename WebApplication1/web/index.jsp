@@ -13,10 +13,17 @@
             <div class="row-fluid">
                 <div class="span4">
                     <input type="radio" name="group1" value"selectPc"> <span class="pagination">Selecionar gpu</span>
-                    <select name="dropPc">
-                        <option value="gt240">Nvidia GT240 ddr3 1gb</option>
-                        <option value="gma4500">Intel GMA 4500MHD</option>
+                        <select name="dropPc">
+                        <option value="gt240">Nvidia GT240 1gb</option>
+                        <option value="gt430">GeForce GT 430 1GB</option>
+                        <option value="gma4500">GeForce GTS 450 1GB </option>
+                        <option value="gma4500">GeForce GTX 460 1GB</option>
+                        <option value="gma4500">GeForce GTX 550 TI 1GB </option>
+                        <option value="gma4500">GeForce GTX 680 2GB</option>
+                        <option value="gma4500">GeForce GTX 560 TI 1GB</option>
+                        <option value="gma4500">GeForce GTX 570  1.2GB</option>
                         <option value="rdn7990">AMD Radeon 7990</option>
+			<option value="gt240">Nvidia GT240 ddr3 1gb</option>
                     </select>
                 </div>
                 <div class="span1">
@@ -26,11 +33,33 @@
                 </div>
                 <div class="span4">
                     <input type="radio" name="group1" value"selectPc"> <span class="pagination">Selecionar jogo</span>
-                    <select name="dropJogo">
+                   <select name="dropJogo">
                         <option value="aok">Age of Empires II: AOK</option>
-                        <option value="crysis">Crysis</option>
+                        <option value="crysis">Prototype</option>
+                        <option value="crysis">NFS:SHIFT</option>
+                        <option value="crysis">SKYRIM</option>
+                        <option value="crysis">BATLEFIELD 3</option>
+                        <option value="crysis">CALL OF DUTY: MODERN WARFARE 3</option>
+                        <option value="crysis">BIOSHOCK</option>
+                        <option value="crysis">PRINCE OF PERSIA</option>
+                        <option value="crysis">DIABLO 3</option>
+                        <option value="crysis">NFS: UNDERCOUVER</option>
+                        <option value="crysis">FLAT OUT</option>
+                        <option value="crysis">GTA IV</option>
+                        <option value="crysis">BURNOUT: PARADISE</option>
+                        <option value="crysis">DEAD SPACE 2</option>
+                        <option value="crysis">RESIDENT EVIL 4</option>
+                        <option value="crysis">YACUSA</option>
+                        <option value="crysis">WOW </option>
+                        <option value="crysis">JAMES CAMERON AVATAR</option>
+                        <option value="crysis">KILLING FLOOR</option>
+                        <option value="crysis">FAR CRY 3</option>
+                        <option value="crysis">PRISTON TALE</option>
+                        <option value="crysis">PRISTON TALE</option>
+                        <option value="crysis">PRISTON TALE</option>
+                        <option value="crysis">PRISTON TALE</option>
                         <option value="rct2">Roller Coaster Tycoon 2</option>
-                    </select>	
+                    </select>		
                 </div>
             </div>
             <div class="row">
@@ -47,24 +76,13 @@
                     </div>
                 </div>
             </div>
+        </div>
             <jsp:include page="include/footer.jsp"/>
             <!-- /container -->
             <!-- Le javascript
             ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
-            <script src="../assets/js/jquery.js"></script>
-            <script src="../assets/js/bootstrap-transition.js"></script>
-            <script src="../assets/js/bootstrap-alert.js"></script>
-            <script src="../assets/js/bootstrap-modal.js"></script>
-            <script src="../assets/js/bootstrap-dropdown.js"></script>
-            <script src="../assets/js/bootstrap-scrollspy.js"></script>
-            <script src="../assets/js/bootstrap-tab.js"></script>
-            <script src="../assets/js/bootstrap-tooltip.js"></script>
-            <script src="../assets/js/bootstrap-popover.js"></script>
-            <script src="../assets/js/bootstrap-button.js"></script>
-            <script src="../assets/js/bootstrap-collapse.js"></script>
-            <script src="../assets/js/bootstrap-carousel.js"></script>
-            <script src="../assets/js/bootstrap-typeahead.js"></script>
-
+      <jsp:include page="include/js.jsp"/>      
     </body>
+      
 </html>
