@@ -6,7 +6,9 @@
 <html lang="en">
     <jsp:include page="include/header.jsp"/>
     <body background="background.jpg">
-
+        <jsp:include page="include/titulo.jsp">
+            <jsp:param name="titulo" value="Home" /> 
+            </jsp:include>
         <jsp:include page="include/menusup.jsp"/>
 
         <div class="container">
