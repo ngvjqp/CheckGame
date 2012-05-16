@@ -1,11 +1,11 @@
 
 package model;
 
-public class Model {
+public class ponte {
     private String gpu;
     private String jogo;
 
-    public Model(String gpu, String jogo) {
+    public ponte(String gpu, String jogo) {
         this.gpu = gpu;
         this.jogo = jogo;
     }
