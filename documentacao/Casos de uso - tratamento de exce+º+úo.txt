@@ -1,0 +1,19 @@
+fluxoprincipal:
+
+1: cliente acessa o site
+
+2: cliente seleciona se quer checar hardware ou jogo
+
+3: cliente insere suas informações
+
+4: clica em checar
+
+5: ve seu resultado
+
+__________________
+
+exceçoes
+
+3a- jogo ou hardware requisitadoo nao está presente no nosso banco de dados
+
+ 

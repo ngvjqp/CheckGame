@@ -6,7 +6,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#"><img src="logo.png"></a>
+                    <a class="brand" href="index.jsp"><img src="logo.png"></a>
                     <div>
                         <ul class="nav">
                             <li><a href="index.jsp">Home</a></li>

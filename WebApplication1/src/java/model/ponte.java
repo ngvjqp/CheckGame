@@ -1,28 +1,42 @@
-
 package model;
 
-public class ponte {
-    private String gpu;
-    private String jogo;
+public class Jogo {
+    protected String titulo;
+    protected String descricao;
 
-    public ponte(String gpu, String jogo) {
-        this.gpu = gpu;
-        this.jogo = jogo;
+    public Jogo() {
+    
+    }
+    
+    public Jogo(String titulo, String descricao) {
+        this.titulo = titulo;
+        this.descricao = descricao;
     }
 
-    public String getGpu() {
-        return gpu;
+    
+    public String getDescricao() {
+        int tamanhoTexto = this.descricao.length();
+        String textoCortado = "";
+        if(tamanhoTexto < 40){
+            textoCortado = this.descricao.substring(0, tamanhoTexto);
+        } else {
+            textoCortado = this.descricao.substring(0, 40);
+        }
+            
+        return textoCortado+"...";
     }
 
-    public void setGpu(String gpu) {
-        this.gpu = gpu;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
-    public String getJogo() {
-        return jogo;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setJogo(String jogo) {
-        this.jogo = jogo;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
+    
+    
 }
