@@ -19,15 +19,18 @@
 
             <div class="row-fluid">
                 <div class="span4">
-                    <input type="radio" name="group1" value"selectPc"> <span class="pagination">Selecionar gpu</span>
-                    <select name="dropPc">
-                        <%
-                            ArrayList<Jogo> jogo = JogoDAO.listaJogo();
-                            for (Jogo j : jogo) {
-                                out.print("<option  value = \"gt240\" >" + j.getJogo() + "</option>");
-                                }
-                        %>
-                        </select >
+                    <form action="include/resultadoJOGO.jsp" method="POST">
+                        <input type="radio" name="group1" value"selectJogo"> <span class="pagination">Selecionar Jogo</span>
+                        <select name="dropJOGO">
+                            <%
+                                ArrayList<Jogo> jogo = JogoDAO.listaJogo();
+                                for (Jogo j : jogo) {
+                                    out.print("<option  value = \""+ j.getJogo()+ "\" >" + j.getJogo() + "</option>");
+                                    }
+                            %>
+                        </select>
+                        <input type="submit" value="Ok" />
+                    </form>
                 </div>
                 <div class="span1">
                     <div class="pagination">
@@ -35,19 +38,18 @@
                     </div>
                 </div>
                 <div class="span4">
-                    <input type="radio" name="group1" value"selectPc"> <span class="pagination">Selecionar jogo</span>
-                    <select name="dropJogo">
-
-                    <%
-                            ArrayList<gpu> gpu = gpuDAO.listaGPU();
-                            for (gpu j : gpu) {
-                                out.print("<option  value = \"gt240\" >" + j.getNome() + "</option>");
-                                }
-                        %>
-                        }
-        
-                        %>
-                    </select>		
+                    <input type="radio" name="group1" value"selectPc"> <span class="pagination">Selecionar GPU</span>
+                    <form action="include/resultadoGPU.jsp" method="POST">
+                    <select name="dropGpu">
+                            <%
+                                ArrayList<gpu> gpu = gpuDAO.listaGPU();
+                                for (gpu g : gpu) {
+                                    out.print("<option  value = \""+ g.getNome()+ "\" >" + g.getNome() + "</option>");
+                                    }
+                            %>
+                        </select>
+                        <input type="submit" value="Oks" />
+                    </form>
                 </div>
             </div>
             <div class="row">
@@ -59,7 +61,7 @@
                 <div class="span6">
                     <img scr="imagens/mib_1.jpg">
                 </div>
-                <jsp:include page="include/resultado.jsp"/>
+                
             </div>
             </div>
         </div>

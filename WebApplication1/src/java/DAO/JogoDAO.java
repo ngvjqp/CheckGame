@@ -10,7 +10,7 @@ public class JogoDAO {
         ArrayList<Jogo> lista = new ArrayList<Jogo>();
         
         MySQL bancoDados = new MySQL();
-        String sql = "select nome from jogo"; //Cria consulta para pegar todas as notícias do banco
+        String sql = "select nome from jogo order by nome"; //Cria consulta para pegar todas as notícias do banco
         ConjuntoResultados linhas = bancoDados.executaSelect(sql); //Pega conjunto de linhas retornadas 
         //Para cada linha retornado, 
             //cria um objeto Modelo
