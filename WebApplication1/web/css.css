@@ -3004,7 +3004,7 @@ input[type="submit"].btn.btn-mini {
   float: none;
   padding: 10px 10px 11px;
   line-height: 39px;
-  color: #878aff;
+  color: #d33;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -3150,7 +3150,7 @@ width: 100%;
 .pagination {
  color:#ccc; 
  font-size: 16px;
-   text-shadow:1px 2px  6px #66f;
+   text-shadow:1px 2px  6px #f00;
 }
 
 .paginationbgw {

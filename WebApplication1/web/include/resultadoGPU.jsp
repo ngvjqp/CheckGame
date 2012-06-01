@@ -8,9 +8,7 @@
 <html>
     <jsp:include page="headerResult.jsp"/>
     <body background="../background.jpg">
-        <jsp:include page="titulo.jsp">
-            <jsp:param name="titulo" value="Home" /> 
-        </jsp:include>
+      
         <jsp:include page="menusupResult.jsp"/>
 
         <div class="container">

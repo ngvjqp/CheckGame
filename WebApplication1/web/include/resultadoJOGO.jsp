@@ -5,13 +5,11 @@
 <%@page import="DAO.gpuDAO"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="DAO.JogoDAO"%>
-?		<!DOCTYPE html>
+
 <html>
     <jsp:include page="headerResult.jsp"/>
     <body background="../background.jpg">
-        <jsp:include page="titulo.jsp">
-            <jsp:param name="titulo" value="Home" /> 
-        </jsp:include>
+  
         <jsp:include page="menusupResult.jsp"/>
 
         <div class="container">
