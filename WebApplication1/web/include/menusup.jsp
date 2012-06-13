@@ -13,6 +13,7 @@
                             <li><a href="sobre.jsp">Sobre</a></li>
                             <li><a href="contato.jsp">Contato</a></li>
                             <li><a href="ajuda.jsp">Ajuda</a></li>	  
+                            <li><a href="Admin.jsp">Admin</a></li>	  
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
