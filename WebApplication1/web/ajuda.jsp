@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <jsp:include page="include/header.jsp"/>
-    <body background="background.jpg">
+    <body background="background.png">
         <jsp:include page="include/menusup.jsp"/>
 
         <div class="container">

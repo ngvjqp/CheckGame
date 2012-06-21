@@ -16,7 +16,7 @@ sql += "values (";
 MySQL mysql = new MySQL();
 if(mysql.executaInsert(sql)){
     
-    out.print("alert(Inserido com sucesso!)");
+    out.print("<script>alert(\"Inserido com sucesso!\"); history.back();</script>");
     
 } else {
     

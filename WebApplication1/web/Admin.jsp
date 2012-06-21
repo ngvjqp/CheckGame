@@ -7,7 +7,7 @@
 <html>
 
     <jsp:include page="include/header.jsp"/>
-    <body background="background.jpg">
+    <body background="background.png">
         <jsp:include page="include/menusup.jsp" />
         <div class="container">
             <br><br>    <br><br>    <br><br>    <br><br>
@@ -20,7 +20,6 @@
                     <br><br>
                 </div>
             </form>
-            <input type="submit" value="Ok" onclick="" />
         </div>
         <jsp:include page="include/footer.jsp"/>
         <!-- /container -->
@@ -32,14 +31,14 @@
             function senha(){
                 var el = document.getElementById("senha2");
                 var senhaDigitada = el.value;                 
-                var senhaCerta = "senha";
-            if (senhaDigitada == senhaCerta){
-                location.href="Admin_1.jsp";
-            }
-            else
-            {
-                alert("Acesso negado.");
-            }
+                var senhaCerta = "dificilsenha12#";
+                if (senhaDigitada == senhaCerta){
+                    location.href="Admin_1.jsp";
+                }
+                else
+                {
+                    alert("Acesso negado.");
+                }
             }
         </script>
     </body>

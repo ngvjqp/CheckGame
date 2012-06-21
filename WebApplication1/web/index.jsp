@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
     <jsp:include page="include/header.jsp"/>
-    <body background="background.jpg">
+    <body background="background.png">
         <jsp:include page="include/menusup.jsp" />
         <div class="container">
             <div class="row-fluid">
@@ -15,6 +15,9 @@
 
             <div class="row-fluid">
                 <div class="span6" align="center">
+
+
+
                     <form action="include/resultadoJOGO.jsp" method="POST">
                         <span class="pagination"><h1>Selecionar Jogo</h1><br></span>
                         <select name="dropJOGO">

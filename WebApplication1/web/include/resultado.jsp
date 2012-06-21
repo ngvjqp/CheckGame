@@ -1,0 +1,3 @@
+                <div class="span6">
+                    <div class="paginationbgw"><h1>Resultado:</h1> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum consequat ipsum ac sollicitudin. Integer viverra cursus posuere. Fusce consequat volutpat velit et porttitor. Suspendisse dolor arcu, placerat ut facilisis ut, posuere ut dui. Praesent egestas varius consequat. Curabitur orci leo, adipiscing quis pharetra in, convallis et mauris. Nulla dignissim.
+                    </div>

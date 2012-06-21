@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
     <jsp:include page="include/header.jsp"/>
-    <body background="background.jpg">
+    <body background="background.png">
         <jsp:include page="include/menusup.jsp" />
         <div class="container">
             <div class="row-fluid">
@@ -53,6 +53,9 @@
                         </form>
                     </div>
                 </div>
+                <div class="span12" align="center">
+                    <INPUT class="btn-danger" TYPE="BUTTON" VALUE="Responder perguntas." ONCLICK=location.href="responder.jsp"> 
+                </div>
             </div>
 
             <jsp:include page="include/footer.jsp"/>
@@ -62,20 +65,4 @@
             <!-- Placed at the end of the document so the pages load faster -->
             <jsp:include page="include/js.jsp"/>      
     </body>
-<script type="text/javascript">
-var username = "Agent006";
-if(username == "Agent007")
-	document.write("Welcome special agent 007"); 
-else
-	document.write("Access Denied!"); 
-document.write("<br /><br />Would you like to try again?<br /><br />");
-
-// User enters a different name
-username = "Agent007";
-if(username == "Agent007")
-	document.write("Welcome special agent 007"); 
-else
-	document.write("Access Denied!"); 
-
-</script>
 </html>

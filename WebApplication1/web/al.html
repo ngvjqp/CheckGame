@@ -1,0 +1,32 @@
+<html>
+<body>
+<head>
+
+<!--------COMEÇA AQUI-------------->
+<HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function textCounter(field, countfield, maxlimit) {
+if (field.value.length > maxlimit)
+field.value = field.value.substring(0, maxlimit);
+else 
+countfield.value = maxlimit - field.value.length;
+}
+// -->
+</script>
+
+</HEAD>
+<BODY>
+<center>
+<form name=myform action="YOUR-SCRIPT.CGI">
+<font size="1" face="arial, helvetica, sans-serif"> ( Limite de 125 caracteres. )<br>
+<textarea name=message wrap=physical cols=28 rows=4 onKeyDown="textCounter(this.form.message,this.form.remLen,125);" onKeyUp="textCounter(this.form.message,this.form.remLen,125);"></textarea>
+
+<br>
+faltam&nbsp;<input readonly type=text name=remLen size=3 maxlength=3 value="125"></font>
+</form>
+</center>
+<!--------TERMINA AQUI------------->
+
+</body>
+</html>
