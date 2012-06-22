@@ -9,8 +9,8 @@
                     <a class="brand" href="index.jsp"><img src="logo.png"></a>
                     <div>
                         <ul class="nav">
-                            <li><a href="index.jsp">Home</a></li>
-                            <li><a href="sobre.jsp">Sobre</a></li>
+                            <li><a href="index.jsp"><img alt="Home" src="imagens/home.png"/></a></li>
+                            <li><a href="sobre.jsp"><img alt="Sobre" src="imagens/sobre.png"/></a></li>
                             <li><a href="contato.jsp">Contato</a></li>
                             <li><a href="ajuda.jsp">Ajuda</a></li>	  
                             <li><a href="Admin.jsp">Admin</a></li>	  

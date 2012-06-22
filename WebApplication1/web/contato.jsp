@@ -50,11 +50,11 @@
                 <div class="span5"><br><br><br><br>
                     <div class="pagination" align="right">
                         <div style="width:300px;height:450px;overflow:auto;background-color:#999;border-radius:9px;opacity:0.5">
-                            <div style="opacity:1;color:#fff">
+                            <div style="opacity:1;color:#fff" align="left">
                             <%
                                 ArrayList<Pergunta> pergunta = perguntaDAO.listaPergResp();
                                 for (Pergunta p : pergunta) {
-                                    out.print("Pergunta:" + p.getPergunta() + "<BR>Resposta:" + p.getResposta() + "<br><br>");
+                                    out.print("<b>Pergunta:</b>" + p.getPergunta() + "<BR><b>Resposta:</b>" + p.getResposta() + "<hr>");
                                 }
                             %>
                             </div>

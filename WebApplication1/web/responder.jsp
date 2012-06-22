@@ -38,8 +38,11 @@
                         <input type="submit" value="Enviar" />
                         <br>
                         Caracteres restantes:<input readonly type=text name=remLen size=3 maxlength=3 value="400"></font>
-                        
+
                     </form>
+                </div>
+                <div class="span6">
+                    
                 </div>
                 <jsp:include page="include/footer.jsp"/>
                 <!-- /container -->
