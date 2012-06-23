@@ -14,8 +14,10 @@
             <form name="senhaADM" action="" method="POST">
                 <div class="pagination" align="center">
                     <FORM NAME="senha"> 
-                        <INPUT TYPE="password" NAME="senha2" id="senha2" VALUE=""> Insira sua senha<BR> 
+                        <div style="font-size: 23px">  Insira sua senha:
+                        <INPUT TYPE="password" NAME="senha2" id="senha2" VALUE="">
                         <INPUT TYPE="button" NAME="botao" VALUE="Ok" onClick="senha()"><BR>
+                        </div>
                     </FORM>     
                     <br><br>
                 </div>

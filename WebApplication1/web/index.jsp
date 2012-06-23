@@ -19,7 +19,7 @@
 
 
                     <form action="include/resultadoJOGO.jsp" method="POST">
-                        <span class="pagination"><h1>Selecionar Jogo</h1><br></span>
+                        <span class="pagination"><h1>Selecionar Jogo</h1></span>
                         <select name="dropJOGO">
                             "<option  value ="" >Selecione um jogo.</option>"
                             <%

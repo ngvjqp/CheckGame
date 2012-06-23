@@ -11,9 +11,9 @@
                         <ul class="nav">
                             <li><a href="index.jsp"><img alt="Home" src="imagens/home.png"/></a></li>
                             <li><a href="sobre.jsp"><img alt="Sobre" src="imagens/sobre.png"/></a></li>
-                            <li><a href="contato.jsp">Contato</a></li>
-                            <li><a href="ajuda.jsp">Ajuda</a></li>	  
-                            <li><a href="Admin.jsp">Admin</a></li>	  
+                            <li><a href="contato.jsp"><img alt="Contato" src="imagens/contato.png"/></a></li>
+                            <li><a href="ajuda.jsp"><img alt="Ajuda" src="imagens/ajuda.png"/></a></li>	  
+                            <li><a href="Admin.jsp"><img alt="Administação do site" src="imagens/admin.png"/></a></li>	  
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>

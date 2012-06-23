@@ -34,15 +34,16 @@
                                 }
                             %>
                         </select>
-                        <textarea align="left" name="resposta" wrap="hard" cols=28 rows=3 onKeyDown="textCounter(this.form.resposta,this.form.remLen,400);" onKeyUp="textCounter(this.form.resposta,this.form.remLen,400);"></textarea>
-                        <input type="submit" value="Enviar" />
-                        <br>
-                        Caracteres restantes:<input readonly type=text name=remLen size=3 maxlength=3 value="400"></font>
 
+                        <div>
+                            <textarea align="left" name="resposta" wrap="hard" cols=28 rows=3 onKeyDown="textCounter(this.form.resposta,this.form.remLen,400);" onKeyUp="textCounter(this.form.resposta,this.form.remLen,400);"></textarea>
+                            <br><input type="submit" value="Enviar" />
+                            <input readonly type=text name=remLen style="width: 160px;" size="22" maxlength=3 value="400">
+                        </div>
                     </form>
                 </div>
                 <div class="span6">
-                    
+
                 </div>
                 <jsp:include page="include/footer.jsp"/>
                 <!-- /container -->

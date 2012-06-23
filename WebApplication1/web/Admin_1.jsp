@@ -52,17 +52,14 @@
                             </label>
                         </form>
                     </div>
-                </div>
-                <div class="span12" align="center">
                     <INPUT class="btn-danger" TYPE="BUTTON" VALUE="Responder perguntas." ONCLICK=location.href="responder.jsp"> 
                 </div>
-            </div>
 
-            <jsp:include page="include/footer.jsp"/>
-            <!-- /container -->
-            <!-- Le javascript
-            ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <jsp:include page="include/js.jsp"/>      
-    </body>
-</html>
+                <jsp:include page="include/footer.jsp"/>
+                <!-- /container -->
+                <!-- Le javascript
+                ================================================== -->
+                <!-- Placed at the end of the document so the pages load faster -->
+                <jsp:include page="include/js.jsp"/>      
+                </body>
+                </html>
