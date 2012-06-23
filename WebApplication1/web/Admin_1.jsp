@@ -52,6 +52,7 @@
                             </label>
                         </form>
                     </div>
+                    <br><br><br>
                     <INPUT class="btn-danger" TYPE="BUTTON" VALUE="Responder perguntas." ONCLICK=location.href="responder.jsp"> 
                 </div>
 
