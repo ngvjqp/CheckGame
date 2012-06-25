@@ -1,9 +1,9 @@
--- phpMyAdmin SQL Dump
+﻿-- phpMyAdmin SQL Dump
 -- version 3.4.9
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: 21/06/2012 às 00h04min
+-- Tempo de Geração: 24/06/2012 às 23h46min
 -- Versão do Servidor: 5.5.20
 -- Versão do PHP: 5.3.10
 
@@ -31,28 +31,7 @@ CREATE TABLE IF NOT EXISTS `comentarios` (
   `idJogo` int(11) NOT NULL,
   `comentario` varchar(400) NOT NULL,
   PRIMARY KEY (`idComent`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
-
---
--- Extraindo dados da tabela `comentarios`
---
-
-INSERT INTO `comentarios` (`idComent`, `idJogo`, `comentario`) VALUES
-(1, 24, 'ótimo jogo de mapa aberto. requer muito video para ser jogado por sustentar um cenário tão grande.'),
-(2, 24, 'ótimo jogo de mapa aberto. requer muito video para ser jogado por sustentar um cenário tão grande.'),
-(3, 24, 'muito bom, poderia ser menos cansativo. mas é bom'),
-(4, 24, 'muito bom, poderia ser menos cansativo. mas é bom'),
-(5, 17, 'MELHOR JOGO DE TIRO QUE JÁ JOGUEI !!! gráficos excelentes e jogabilidade ótima'),
-(6, 17, 'o melhor :D'),
-(7, 28, 'medo desse jogo uixxx >.<'),
-(8, 28, 'o jogo peca um pouco nas horas de conversa por serem muito extensas '),
-(9, 16, 'ótimo jogo de tiro, mas nao se compara a BF3'),
-(10, 6, 'Um dos melhores jogos de estratégia que se tem até hoje, mesmo sendo antigo os jogos atuais nao conseguem se igualar perante este jogo'),
-(11, 23, 'muito bom, mas ele é muito pesado mesmo nao tendo gráficos exelentes o que dificulta sua execução mas é muito bom mesmo assim'),
-(12, 23, 'pssss, psss, pss pssssssss, BOOOOOOM'),
-(13, 10, 'PERFEITO! é a unica palavra que me vem a mente quando penso neste jogo. ótima jogabilidade e é muito interativo!'),
-(14, 25, 'O MELHOR JOGO 2 D '),
-(15, 12, 'Ótimo RPG muito bom, gráficos exelentes e o sistema de quest infinito deixa ele infinito de se jogar');
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -65,31 +44,115 @@ CREATE TABLE IF NOT EXISTS `gpu` (
   `nome` varchar(100) NOT NULL,
   `capacidade` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=36 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=104 ;
 
 --
 -- Extraindo dados da tabela `gpu`
 --
 
 INSERT INTO `gpu` (`id`, `nome`, `capacidade`) VALUES
-(18, 'radeon hd 6450 1gb', 120),
-(19, 'geforce gt 430 1gb', 135),
-(20, 'GeForce GTs 450 1gb', 150),
-(21, 'GeForce GTX 460 1gb', 170),
-(22, 'GeForce GTX 550 1gb', 250),
-(23, 'GeForce GTX 560 1gb', 280),
-(24, 'GeForce GTX 560 ti 1gb', 300),
-(25, 'GeForce GTX 570 1.2gb', 350),
-(26, 'GeForce GTX 580 1.5', 400),
-(27, 'Radeon HD 6450 1GB', 120),
-(28, 'Radeon HD 6770 1GB', 150),
-(29, 'Radeon HD  6850 1GB', 200),
-(30, 'Radeon HD 6870 1GB', 230),
-(31, 'Radeon HD 6970 2GB', 300),
-(32, 'Radeon HD 6990 2GB', 330),
-(33, 'GeForce GT 540M 1GB', 120),
-(34, 'INTEL GMA 4500MHD', 130),
-(35, 'INTEL GMA 3500MHD', 113);
+(2, 'GeForce GTX 680 ', 4050),
+(3, 'GeForce GTX 670', 4018),
+(4, 'GeForce GTX 580', 3970),
+(5, 'Radeon HD 7970', 3949),
+(6, 'Radeon HD 7950', 3802),
+(7, 'Radeon HD 7970M', 3678),
+(8, 'GeForce GTX 570', 3630),
+(9, 'GeForce GTX 480', 3538),
+(10, 'Radeon HD 7970 - 7900 MOD', 3455),
+(11, 'Radeon HD 7870', 3441),
+(12, 'GeForce GTX 690', 3392),
+(13, 'WinFast GTX 470', 3384),
+(14, 'GeForce GTX 590', 3326),
+(15, 'Radeon HD 7850', 3242),
+(16, 'Radeon HD 6990', 3213),
+(17, 'GK104', 3195),
+(18, 'Radeon HD 6970', 3133),
+(19, 'Radeon HD 6950', 3056),
+(20, 'GeForce GTX 560 ti', 2992),
+(21, 'GeForce GTX 470', 2969),
+(22, 'FirePro V7900', 2869),
+(23, 'Radeon HD 6870', 2831),
+(24, 'Tesla C2075', 2804),
+(25, 'Tesla C2070', 2768),
+(26, 'Radeon HD 5870', 2754),
+(27, 'Radeon HD 6850', 2749),
+(28, 'GeForce GTX 560', 2719),
+(29, 'Radeon HD 5970', 2650),
+(30, 'FireStream 9370', 2619),
+(31, 'Radeon HD 6970m', 2610),
+(32, 'Firepro V8800', 2599),
+(33, 'Radeon HD 6990M', 2538),
+(34, 'Tesla C2050', 2550),
+(35, 'Radeon HD 5850', 2541),
+(36, 'Radeon HD 6900M', 2530),
+(37, 'GeForce GTX 465', 2491),
+(38, 'WinFast GTX 460', 2455),
+(39, 'FirePro V7800', 2440),
+(40, 'GeForce  GTX 460', 2370),
+(41, 'GeForce GTX 675M', 2345),
+(42, 'Pro M8900 Mobility Pro Grap ', 2325),
+(43, 'Radeon HD 6700', 2294),
+(44, 'GeForce GTX 485M', 2241),
+(45, 'GeForce GTX 460 v2', 2237),
+(46, 'Radeon HD 6790', 2228),
+(47, 'Radeon HD 5830', 2147),
+(48, 'GeForce GTX 460 SE', 2105),
+(49, 'GeForce GTX 280', 1970),
+(50, 'Radeon HD 4890', 1932),
+(51, 'GeForce gtx 275', 1927),
+(52, 'ASUS EAH4890', 1917),
+(53, 'Radeon HD 2600 XT AGP', 342),
+(54, 'Intel HD i5 660', 341),
+(55, 'GeForce GT 520', 339),
+(56, 'GT 220', 339),
+(57, 'Intel HD i5-2405 S', 337),
+(58, 'Intel HD i3 550', 337),
+(59, 'Radeon HD 6450A', 336),
+(60, 'Intel HD i5 M 560', 336),
+(61, 'GeForce 9600M GT ', 334),
+(62, 'Radeon HD 6300M', 333),
+(63, 'WinFast PX9400 GT', 332),
+(64, 'Intel HD i5-2430M ', 330),
+(65, 'Radeon 9800 pro ', 330),
+(66, 'Intel HD i5 M540', 328),
+(67, 'Radeon X800', 327),
+(68, 'Radeon HD 6370M', 326),
+(69, 'GeForce GT 120M', 326),
+(70, 'Radeon X1650 pro', 324),
+(71, 'GeForce go 7800', 320),
+(72, 'Intel i5 M 520', 319),
+(73, 'ASUS X1600 PRO', 319),
+(74, 'GeForce 6800 xt', 316),
+(75, 'Mobility Radeon HD 6370', 315),
+(76, 'GeForce GT 220m ', 314),
+(77, 'INTEL HD ', 312),
+(78, 'INTEL HD Pentium G840', 312),
+(79, 'Radeon HD 5450', 311),
+(80, 'Intel HD i3 M 370 ', 306),
+(81, 'GeForce 320M', 305),
+(82, 'INTEL HD I7 U 680', 305),
+(83, 'GeForce 315', 301),
+(84, 'RAGE 128 PRO AGP 4X TMDS', 20),
+(85, 'Rage Fury/Xpert 128/Xpert 2000', 20),
+(86, 'S3 ProSavageDDR Compaq', 19),
+(87, 'RAGE 128 PRO Ultra GL AGP', 19),
+(88, 'RIVA TNT2 Model 64/Model 64 Pro', 19),
+(89, 'Rage Fury Pro', 19),
+(90, 'RIVA TNT2 Model 64', 19),
+(91, 'Vanta/Vanta LT', 18),
+(92, 'MCP67M', 18),
+(93, '16MB Rage 128 Ultra', 17),
+(94, 'Magnum/Xpert128/X99/Xpert2000', 17),
+(95, 'S3 ProSavageDDR', 17),
+(96, 'All-In-Wonder 128 AGP', 17),
+(97, 'Trident CyberALADDiN-P4 v6.4612.22ICD_SE_NP', 16),
+(98, 'Xpert 128', 13),
+(99, 'All-In-Wonder 128 PCI', 12),
+(100, 'S3 ProSavage 8A26', 12),
+(101, 'S3 Twister K + S3Hotkey', 11),
+(102, 'Trident CyberBlade XP Ai1 v6.402', 11),
+(103, 'Trident CyberBlade-XP', 11);
 
 -- --------------------------------------------------------
 
