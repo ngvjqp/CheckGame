@@ -7,7 +7,7 @@
 <%@page import="DAO.JogoDAO"%>
 <html>
     <jsp:include page="headerResult.jsp"/>
-    <body background="../background.jpg">
+    <body background="../background.png">
       
         <jsp:include page="menusupResult.jsp"/>
 
@@ -24,7 +24,7 @@
                          while (linhas.next()) {
                              cap = (linhas.getInt("capacidade"));
 
-                             String sql2 = "select nome from jogo where requisito <" + cap + " ";
+                             String sql2 = "select nome from jogo where requisito <" + cap + " order by nome";
                              ConjuntoResultados linhasas = db.executaSelect(sql2);
                              while (linhasas.next()) {
                                  String jogos = (linhasas.getString("nome"));

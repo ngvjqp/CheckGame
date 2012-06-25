@@ -8,7 +8,7 @@
 
 <html>
     <jsp:include page="headerResult.jsp"/>
-    <body background="../background.jpg">
+    <body background="../background.png">
 
         <jsp:include page="menusupResult.jsp"/>
 
@@ -25,7 +25,7 @@
                         while (linhas.next()) {
                             req = (linhas.getInt("requisito"));
 
-                            String sql2 = "select nome from gpu where capacidade >=" + req + " ";
+                            String sql2 = "select nome from gpu where capacidade >=" + req + " order by nome ";
                             ConjuntoResultados linhasas = db.executaSelect(sql2);
                             while (linhasas.next()) {
                                 String gpu = (linhasas.getString("nome"));

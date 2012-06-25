@@ -33,7 +33,7 @@
             function senha(){
                 var el = document.getElementById("senha2");
                 var senhaDigitada = el.value;                 
-                var senhaCerta = "dificilsenha12#";
+                var senhaCerta = "request.getParameter(senhaADM)";
                 if (senhaDigitada == senhaCerta){
                     location.href="Admin_1.jsp";
                 }

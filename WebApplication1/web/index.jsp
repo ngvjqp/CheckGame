@@ -36,6 +36,7 @@
                     <span class="pagination"><h1>Selecionar GPU</h1></span>
                     <form action="include/resultadoGPU.jsp" method="POST">
                         <select name="dropGpu">
+                            <option value="Selecione sua GPU">Selecione sua GPU</option>
                             <%
                                 ArrayList<gpu> gpu = gpuDAO.listaGPU();
                                 for (gpu g : gpu) {
